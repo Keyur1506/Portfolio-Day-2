@@ -210,11 +210,39 @@ font-size:18px;
     color:#fff;
 }
 /* Contact */
+/* Contact Section */
 
-#contact p{
+.contact-section{
+    min-height:80vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:#0f172a;
+    color:#fff;
+    padding:80px 20px;
+}
 
-margin:15px 0;
+.contact-section h2{
+    font-size:60px;
+    color:#4f46e5;
+    margin-bottom:50px;
+    font-weight:700;
+}
 
+.contact-info p{
+    font-size:22px;
+    margin:25px 0;
+}
+
+.contact-info strong{
+    color:#ffffff;
+    font-weight:700;
+}
+
+.contact-info{
+    line-height:2;
 }
 
 /* Footer */
